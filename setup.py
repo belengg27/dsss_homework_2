@@ -8,10 +8,6 @@ setup(
     author='Belen Gomez Garcia',
     packages=find_packages(),
     install_requires=[
-    ],
-    entry_points={
-        'console_scripts': [
-            'math-quiz = math_quiz.math_quiz:main',
-        ],
-    },
+        #No external dependencies
+    ]
 )
